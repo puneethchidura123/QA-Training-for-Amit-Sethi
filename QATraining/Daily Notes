@@ -1,0 +1,157 @@
+What is java ?  
+Java is a programming language. Initially it was owned by Sun Microsystems and now maintained by oracle. Latest version of java is java19
+
+Where is java used?
+
+Mobile devices - android
+desktop / standalone application - ms office, windows media player, photoshop
+Web based application - automation test store etc
+Gaming related application 
+Database related applications  - 
+
+Why java ?
+
+It can run on multiple platforms like windows, mac, linux, redhat etc…
+Simple and easy to understand and learn
+It is an open source and freeware
+It is secure and fast
+There is a lot of community support
+It is object oriented
+
+
+public class MyFirstJavaProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("hello amit   welcome to java series");
+	}
+
+}
+
+
+
+
+GIT - Version controlling 
+
+
+Green 
+Red
+Yellow
+Green
+
+Using git we will be able to maintain multiple versions of a particular software very easily
+In a realtime environment with git it is easy to share the project changes in files among all the team members.
+
+
+Remote repo : git hub
+Local repo : laptop
+
+
+Git add . : it will move all the changes from local repo to staging area
+Git commit -m “commit message” : it will commit all the changes moved to staging area
+Git push : it will move the changes from local repo to remote repo
+Git pull : it will move the changes from  remote repo to  local repo 
+
+
+Java Variable.
+variables are used for storing the data either temporarily or permanantly. 
+
+x=10;
+x=20;
+
+String : stores text
+note : every string value in java should be enclosed with in " " 
+int : it will store whole numbers
+float : it will store decimal values
+char : it will store a single character
+boolean : either true or false
+
+
+syntax for writing variables
+
+<data type> <variable name> = <value>;
+
+note :  in java every statement should end with a semicolon";"
+
+
+when we want to assign a value to a variable permanantly the that variable has to be declared as final.
+
+
+
+Java Identifiers:
+==================
+java identifiers are nothing but the variable names.
+each variable name in java must be unique.
+
+some additional rules for java identifiers
+1)identifiers names should only contain letters, digits,underscore and dollar sign only
+2)identifiers name should begin with a letter
+3) Spaces are not allowed
+4)there are 53 reserved words in java, these reserved words cannot be used as identifiers
+
+
+
+Java Data Types
+===============
+
+data type in java will specify the type of data a variable stores/holds
+
+in java there are 8 primitive data types
+
+whole numbers :
+
+byte  : 1 byte - -127 to 126
+short : 2 bytes
+int : 4 bytes
+long : 8 bytes 
+
+decimals :
+
+
+float : 4 bytes
+double : 8 bytes
+
+single alphabets ::
+
+char
+
+
+true or false :: 
+
+boolean
+
+
+
+non primitive data types ::
+
+String is a non primitive data type 
+
+
+
+
+Type Casting :  
+=============
+
+
+type casting is assigning a value of one data type to another
+
+there are two types of type casting
+
+narrowing ::  assigning a larger data type to smaller data type  
+widening :: assigning a smaller data type to larger data type  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
