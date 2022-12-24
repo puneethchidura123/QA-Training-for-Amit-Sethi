@@ -142,6 +142,73 @@ widening :: assigning a smaller data type to larger data type
 
 
 
+operators : operators in java are used to perform oprations in java code
+there are multiple types of java operators
+
+1) Arithmatic operators :
+
+Additon :   +
+substraction : -
+multiplication : *
+division : / (quotient)
+mudulos : % (reminder)
+increment : ++
+note : there are two types of increment operators - 
+pre increment  : the values of variable is first incremented and use later(int variable1 =10; ++variable1;)
+and 
+post increment : the values of variable are first used and incremented later(int variable1 =10; variable1++;)
+
+
+decrement : --
+
+int z = x+y;
+operator : +
+operands : x,y,z;
+
+
+
+2) Assignment operators : these operators are used to assign values to variables
+
+= : normal assignment operator int x =23;
++= : incremental assignment operator x += 23;  // x = x+23;  // 46
+-= : decremental assignment operator x -= 23  // x = x-23; // 23
+*= : multiplicative assignment operator x *= 2 // x = x*2  // 46
+/= : division assignment operator x /= 2 // x = x/2 ; 23
+%= : mudulos assignment operator x %= 10 // x = x%10 ; // 3
+
+
+
+3) Comparision operators : these are used to compare the values in between two variables
+
+note : the result of comparision operation is always boolean(either true or false)
+
+
+ == : this will check if the values of both the variables is equal or not // int x = 1,y=2; x == y; // false
+ != : not equals to operator  // int x = 1,y=2; x != y;  // true
+ > : greater than operator
+ < : less than operator
+ >= : greater than or equals to operator
+ <=  : less than or equals to operator
+ 
+ 
+ 4) Logical Operators : these are used for performing logical operations in java programming
+ 
+ note : the operands for logical operations should be boolean
+ 
+ logical AND :  && : when both the values are true then the result is true else it will false
+ logical OR :  ||  : if atlease one value is true then result is true
+ logical NOT : !   : it will reverse the result. 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
 
 
 
