@@ -201,6 +201,129 @@ note : the result of comparision operation is always boolean(either true or fals
  
  
  
+ 
+ 
+ STRING
+ 
+ 
+ 
+ in strings are used to represent text, these are collection of characters
+ 
+ 
+ String my_name = "amit sethi";
+ 
+ 
+ String is a class in java
+ 
+ length() : this will return the length of given string i.e no of characters
+ toUpperCase() : this will convert the lowercase characters in a given string to upper case characters
+ toLowerCase() : this will convert the upper case characters in a given string to lowercase characters
+ indexOf(char) : it will take an character and argumnet and return the position of it in the string 
+  
+ other methods are available at “https://www.w3schools.com/java/java_ref_string.asp”
+ 
+ 
+ String concatination : 
+ 
+ concatination operator :  +
+ 
+ 	String s1 = "hello";
+		int i = 10,j=2,k=3;
+		System.out.println(s1+i+j+k); // hello1023
+		System.out.println(i+j+k+s1); // 15hello
+		
+		
+
+
+CONDITIONAL STATEMENTS and LOOPS
+
+
+
+CONDITIONAL STATEMENTS
+
+if  : if the conditon written is executed to true then the if body is executed
+
+if(condition)
+{
+//code
+}
+
+if else : if the condition written in true the if body is executed, if the conditon written is false the else body will be executed
+
+if(condition)
+{
+//code 1
+}
+else
+{
+//code 2
+}
+
+
+else if   :  we can use this else if to check multiple conditions
+
+if(condition1)
+{
+}
+else if(condition 2)
+{
+}
+else if(condition 3)
+{
+}
+.
+.
+.
+.
+.
+else if(condition n)
+{
+}
+else
+{
+}
+
+
+switch : is alos an java conditional statement which can be used to evaluate multiple conditons.
+
+
+switch(expression)
+{
+case expression_result1 :
+//case body;
+break;
+case expression_result2 :
+//case body;
+break;
+.
+.
+.
+.
+case expression_resultn :
+//case body;
+break;
+default :
+//default body;
+break;
+}
+
+
+
+LOOPS
+
+while loop : 
+
+do while loop : 
+
+for loop :
+
+for each loop : 
+
+
+
+
+ 
+ 
 
 
 
