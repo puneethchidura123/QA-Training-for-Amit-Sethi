@@ -311,19 +311,151 @@ break;
 
 LOOPS
 
-while loop : 
+while loop : entry controlled loop
 
-do while loop : 
+while(condition)
+{
+// code when condition is executed to true
+}
+
+note : the result of condition is always a boolean values(true,false)
+
+
+
+
+
+do while loop : exit controlled loop
+
+do
+{
+//loop body
+}while(condition);
+
+
 
 for loop :
+
+for(initialization;condition;increment/decrement)
+{
+
+// loop body when the condition is true
+
+}
 
 for each loop : 
 
 
+int[]  rollnumbers = {10,25,14,78,965};
+
+for(data type variable name : array name)
+{
+// body of the loop
+}
 
 
+for(int x : rollnumbers)
+{
+System.out.println(x);
+}
+
+Arrays
+
+
+ctrl+fn+f11  - run the java program
+
+
+
+Array:   these arrays are used to store multiple values of the same datatype in a single variable.
+
+int x = 10;
+
+{10,25,14,78,965....}
+
+declaring and initializing an array
+
+int[]  rollnumbers = {10,25,14,78,965};
+
+
+
+String[]  studentnames = {"amit","suresh","murugan","krishna","chinmay"};
+
+float[] marks = {45.23,78.26,45.27};
+
+
+reading values from the array
+
+int[]  rollnumbers = {10,25,14,78,965};
+
+
+rollnumbers[0]; //10
+rollnumbers[1]; //25
+rollnumbers[2]; //14
+rollnumbers[3]; //78
+rollnumbers[4]; //965
+
+
+
+
+
+String[]  studentnames = {"amit","suresh","murugan","krishna","chinmay"};
+
+studentnames[0]; //amit
+studentnames[1]; //suresh
+studentnames[4]; //chinmay
+
+
+
+int[] rollnumbers = new int[5];
+ 
+ rollnumbers[0] = 12;
+ rollnumbers[1] = 36;
  
  
+ 
+ Advantages of arrays :
+ 
+ 1) we can use one variable name to hold multiple values
+ 2) we can declare an empty array and assign values to it later on 
+ 
+ 
+ Disadvantages : 
+ 
+ 1) Array can hold data of same data type
+ 2) arrays at the time declaration we will have to specify the size, if we are not utilizing array then there is some wastage of memory
+ 
+ 
+ 
+ 
+ object oriented programming (oop)
+ 
+ class : it is a template for creating objects
+ object :  object is a instance of classs 
+ 
+ 
+  class : cars
+ object : tata,maruthi,volvo,jaguar,BMW,Audi... etc
+ 
+ 
+ 
+ any class can have attributes and methods 
+ 
+ 
+ attributes :  these are the properties of class.
+ 
+ if car is a class its brand, type, engine capacity etc are the attributes of class
+ 
+ static attributes : any property of class which is common among all its object ex : no of wheels
+ instance attributes : any property of class which is not common among all its object ex : brand, type, engine capacity etc... 
+ 
+ 
+ methods : these are the actions which are performed by the objects of class. 
+ 
+if car is a class its actions like start, stop, apply brakes, go into auto mode ,,, etc these are methods/ actions perfromed by the objects of class CAR
+
+
+static methods : any method  of class which is common among all its object . ex : start, stop, applying brakes
+
+instance methods : any method of class which is not common among all its object .   ex : auto mode 
 
 
 
