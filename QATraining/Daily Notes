@@ -458,6 +458,39 @@ static methods : any method  of class which is common among all its object . ex 
 instance methods : any method of class which is not common among all its object .   ex : auto mode 
 
 
+Constructors :  thes are special methods in java used for working on instance variables/attribute. 
+
+thre are two types of constructors
+
+1) zero parametrized constructor
+2) parameterized constructor
+
+
+Access Modifiers in java ::
+
+public :  
+private : 
+
+
+protected :
+default :
+
+
+
+
+package 1
+class 1
+public method1()
+
+
+
+package 2
+class 2
+method1()  :: not possible
+
+
+
+
 
 
 
