@@ -7,7 +7,7 @@ public class Class2 {
 
 		Class1 c1 = new Class1();
 		//c1.method1();
-		c1.method2();
+		//c1.method2();
 		
 	}
 

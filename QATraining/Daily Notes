@@ -428,12 +428,24 @@ int[] rollnumbers = new int[5];
  
  object oriented programming (oop)
  
- class : it is a template for creating objects
+ class : it is a template/blue print for creating objects
  object :  object is a instance of classs 
  
- 
+ ex : 1
   class : cars
  object : tata,maruthi,volvo,jaguar,BMW,Audi... etc
+ 
+ 
+ ex : 2
+ 
+ class : animals
+ object : cat,dog,snake, lion elephant....
+ 
+ ex : 3
+ 
+ class : mobile phone
+ object : apple, samsung,vivo, oppo... etc
+ 
  
  
  
@@ -466,14 +478,58 @@ thre are two types of constructors
 2) parameterized constructor
 
 
+
+inheritance :  it is a oops concept in java thru which we can acheive re usability
+
+
+parent class :
+child class :
+
+key word : extends 
+
 Access Modifiers in java ::
 
-public :  
+public :  it can be accessed any where
+
+
+with in the class  : true
+out side of the class in same package : true
+out side of the class in different package : true
+by a child class  in same package : true
+by a child class in different package : true
+
+
 private : 
 
 
+with in the class  : true
+out side of the class in same package : false
+out side of the class in different package : false
+by a child class  in same package : false
+by a child class in different package : false
+
 protected :
+
+with in the class  : true
+out side of the class in same package : true
+out side of the class in different package : false
+by a child class  in same package : true
+by a child class in different package : true
+
+
+
 default :
+
+
+with in the class  : true
+out side of the class in same package : true
+out side of the class in different package : false
+by a child class  in same package : true
+by a child class in different package : false
+
+
+
+
 
 
 
