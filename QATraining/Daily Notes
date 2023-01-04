@@ -528,6 +528,77 @@ by a child class  in same package : true
 by a child class in different package : false
 
 
+encapsulation : it is a mechanism of wrapping data(variable) and code acting on data(methods) under a single unit. 
+ex : class
+
+
+Packages : used for grouping a set of classes together
+
+note : to access a method/variable that belong to a different package in another package we have to import the package
+
+
+Inheritance : Inheritance is for reusability, 
+
+SubClass(child): this calls will inherit from another class
+SuperClass(parent): this calls will be inherited by another class
+
+note : 
+1)private memebers of parent class cannot be inherited/used in child class directly.
+2) A class cannot inherit two different class at the same time
+
+
+
+Polymorphism : one thing appearing in many forms is polymorphism
+
+
+
+method signature : it is a combination of method name, parameters and order of parameters
+
+
+
+
+1) overloading : same entity appearing with different signatures in same class
+2) Overriding : same entity appearing with same signature in two different classes (one in parent class and another one in child class)
+
+
+
+Abstraction : hiding the complete information and showing only the necessary information is called absraction
+
+
+in java abstraction can be acheived in two ways
+1) Abstract classes
+2) Interfaces
+
+
+
+Abstract classes : it is a java class which is declared as abstract. it can have both abstract and non abstract(concrete) methods
+
+
+in abstract classes we can write both abstract and non abstract(concrete) methods
+
+
+
+
+Interfaces  : it is a full abstract class. 
+in interface there can be only abstract methods and no non abstract(concrete) methods are allowed in interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
