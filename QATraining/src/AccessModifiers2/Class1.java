@@ -9,7 +9,7 @@ Parent1 p1 = new Parent1();
 	
 	public void m1()
 	{
-		int b = p1.a;
+		//int b = p1.a;
 	}
 	
 }

@@ -584,7 +584,104 @@ in interface there can be only abstract methods and no non abstract(concrete) me
 
 
 
+Collections : when we want to represent a group of individual objects  belongong tp miltiple data type into a single entity we can gpo for collection
 
+
+Adavntages :
+
+1) collections can hold data of multiple data type
+2) collection are not fixedin size they are growable
+3) it has a good read made method support
+
+
+Collection is an interface in java  and all the below interfactes are the child interfaces of collection except map
+
+
+List[I]  : this is a child interface of collection. it allows duplicate entries and maintain the order of insertion. 
+
+
+ArrayList[c] : it is a implementation of List interface and it best suitable for retrieval operation as it implements RandomAccess Interface  
+
+
+ArrayList al = new ArrayList();
+al.add("Amit");
+al.add("Sethi");
+al.add(342.098);
+al.add(true);
+al.add('a');
+
+LinkedList[c]  : it is a implementation of List interface and it best suitable for insertion and deletion as it implements Serializable and Clonable interfaces
+
+LinkedList ll = new LinkedList();
+ll.add("Amit");
+ll.add("Sethi");
+ll.add(342.098);
+ll.add(true);
+ll.add('a');
+
+
+
+Set[i] : this is a child interface of collection.  it doesn't allow duplicate entries and doesn't maintain the order of insertion. 
+
+
+HashSet[c]  :  this is a implementation class of set interface. it doesn't allow duplicate entries and doesn't maintain the order of insertion. 
+
+HashSet hs = new HashSet();
+hs.add("Amit");
+hs.add("Sethi");
+hs.add(342.098);
+hs.add(true);
+hs.add('a');
+
+LinkedHashSet[c] :  this is a implementation class of set interface. it doesn't allow duplicate entries and maintains the order of insertion. 
+
+
+LinkedHashSet lhs = new LinkedHashSet();
+		lhs.add("Amit");
+		lhs.add("Sethi");
+		lhs.add(342.098);
+		lhs.add(true);
+		lhs.add('a');
+		
+		System.out.println(lhs);
+		
+		lhs.add("Amit");
+		
+	
+Queue :   this is a child interface of collection.  it is best suited for maintaining pre processing related information
+ implementation classes of queue are
+ 
+ 1)Priority Queue
+ 2)Blocking Queue
+ 3) Priority Blocking Queue
+ 4) Linked Blocking Queue
+ 
+ 
+ 
+ 
+ 
+
+Map :  this is not a child interface of collection.  if we want to represent a group of individual objects in the form of key and value pairs then map is the sutable option
+
+
+map has some implementation classes
+
+
+1) HashMap : 
+
+HashMap hm = new HashMap();
+hm.put("first name ","amit");
+hm.put("last name ","sethi");
+hm.put("is currently in india",false);
+
+
+2) HashTable : 
+
+HashTable ht = new HashTable();
+ht.put("first name ","amit");
+ht.put("last name ","sethi");
+ht.put("is currently in india",false);
+  
 
 
 
