@@ -1,0 +1,106 @@
+Selenium ?
+
+it is an open source and free tool for automating web based applications across multiple browsers
+
+
+Selenium is not just a single tool but a suite of different softwares, each software under selenium suite is designed for a specific purpose
+
+
+Selenium IDE : it is just a chrome plugin and used for record and playback
+
+Selenium RC : 	it is advanced when compared to IDE, usining RC we could design complex test scripts using multiple programming laguages like JAVA,C#,PYTHON
+                RUBY,PERL,PHP
+                
+Selenium WebDriver :  it is advanced when compared to IDE,RC and scripts developed using webdriver are comparitively faster. WebDriver communicates with browser directly
+
+
+Selenium Grid : using this we can run tests in parallel  and also with multiple configurations
+
+
+
+Architecture of Selenium WebDriver :: 
+
+
+
+Advantages :
+
+
+1) Free
+2) Open Source
+3) Lots of community support
+4) it supports multiple programming langugaes
+5) it can run of multiple configurations like mac,windows, linux etc....
+
+
+
+Disadvantages :
+
+
+1) it can automate only web based application but not mobile and desktop based apps
+2) there no dedicated support for selenium we will have to depend on open community support only even in case of any emergency
+
+
+first selenium scipt :
+
+
+
+
+System.setProperty("webdriver.chrome.driver", "D:\\Trainings\\QA-Training-for-Amit-Sethi\\SeleniumTraining\\Browser Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		String WebsiteURL = "https://automationteststore.com/";
+		
+		driver.get(WebsiteURL);
+		
+		
+		
+		
+close the browser ::
+
+driver.close();
+		
+		
+to maximuze ::
+
+driver.manage().window().maximize();
+
+
+
+Locators in selenium :  
+
+
+ID
+Name
+class name
+link text
+partial link text
+tagname
+xpath
+css
+
+
+
+xpath
+
+
+
+to click on any web element
+1) Identify  the locator
+2) Using the locator create a WebElement
+3) Call "click()" method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
