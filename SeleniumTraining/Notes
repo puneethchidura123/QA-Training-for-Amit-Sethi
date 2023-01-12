@@ -90,6 +90,36 @@ to click on any web element
 3) Call "click()" method.
 
 
+to automate text box
+1) Identify  the locator
+2) Using the locator create a WebElement
+3) to check if there is any text call .getText() OR getAttribute("value") method using the created webelemnt, this method will return a string
+4) to enter text call .sendKeys(text)
+
+
+
+
+to automate drop down
+1) Identify  the locator
+2) Using the locator create a WebElement
+3) create a select object using the created webelemnt
+4) using the select object call .selectByVisibleText()  and pass the exact option text.
+
+
+Ex : 
+
+String RegionOrStateDropDownInCreateAccountPageXapth = "//*[@id='AccountFrm_zone_id']";
+		WebElement RegionOrStateDropDownInCreateAccountPageWebElement = driver.findElement(By.xpath(RegionOrStateDropDownInCreateAccountPageXapth));
+		
+		Select RegionOrStateDropDownInCreateAccountPage = new Select(RegionOrStateDropDownInCreateAccountPageWebElement);
+		RegionOrStateDropDownInCreateAccountPage.selectByVisibleText("Aberdeen");
+		
+		
+		
+		
+
+
+
 
 
 
